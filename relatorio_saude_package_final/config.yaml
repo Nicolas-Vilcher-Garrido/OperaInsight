@@ -1,0 +1,26 @@
+entrada:
+  sigsaude_dir: ./sample_data/sigsaude
+  operadoras_dir: ./sample_data/operadoras
+parametros:
+  periodo_inicio: '2024-01-01'
+  periodo_fim: '2025-12-31'
+  moeda: R$
+  uf_incluir:
+  - SP
+  - RJ
+  - MG
+  - PR
+  - RS
+  - BA
+  categoria_incluir:
+  - A
+  - B
+  - C
+chaves:
+  cliente_id: ClienteId
+  dim_clientes: ./sample_data/dim_clientes.csv
+saida:
+  relatorio_xlsm: ./Relatorio_Saude.xlsx
+  auditoria_sheet: Auditoria
+  out_dir: ./out
+  logs_dir: ./logs
