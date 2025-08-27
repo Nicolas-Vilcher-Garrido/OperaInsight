@@ -1,4 +1,4 @@
-﻿🩺 Relatório de Saúde
+﻿🩺 OperaInsight
 
 Automação de relatórios de saúde com Python + Excel (VBA).
 Este projeto integra dados fictícios do SigSaúde e Operadoras, aplica regras de qualidade e gera relatórios prontos para análise, com tabelas dinâmicas, rankings e gráficos.
@@ -155,3 +155,4 @@ Rankings: principais Operadoras e Procedimentos.
 📜 Licença
 
 Este projeto é open-source sob a licença MIT.
+
